@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./assets/componenets/header/Header";
-import Footer from "./assets/componenets/footer/Footer";
+import { FaArrowAltCircleDown } from "react-icons/fa";
 import FormA from "./assets/componenets/form/FormA";
 import FormB from "./assets/componenets/form/FormB";
-import { FaArrowAltCircleDown } from "react-icons/fa";
 import { FaMobileAlt } from "react-icons/fa";
+import Footer from "./assets/componenets/footer/Footer";
 
 function App() {
   //A/B test FormA and FormB, to test which form design leads to better user engagement

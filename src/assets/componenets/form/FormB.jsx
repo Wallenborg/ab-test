@@ -19,10 +19,11 @@ function FormB() {
     // Get the time when submitting
     const submitTime = new Date();
 
-    console.log("Test B - From start to submit:", {
+    console.log("payload", {
       entryTime,
       submitTime,
       ZenLevel: `${zenLevel}%`,
+      formType: "Form-B",
     });
 
     // Update state to show "Thank You" message

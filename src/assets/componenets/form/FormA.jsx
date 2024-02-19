@@ -20,10 +20,11 @@ function FormA() {
     //get timen when submit
     const submitTime = new Date();
 
-    console.log("Test A - From start to submit:", {
+    console.log("payload", {
       entryTime,
       submitTime,
       userChoice: `Zen state: ${userChoice}`,
+      formType: "Form-A",
     });
 
     // Update state to show "Thank You" message
