@@ -1,0 +1,22 @@
+header {
+  position: fixed;
+  z-index: 100;
+  width: 90vw;
+  height: fit-content;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid gold;
+  background-color: rgb(39, 38, 38);
+  border-radius: 10px;
+  font-size: 2vw;
+}
+h1 {
+  color: gold;
+}
+
+.header-icon {
+  color: gold;
+  font-size: 2.5rem;
+}

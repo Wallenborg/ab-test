@@ -1,0 +1,77 @@
+.form-container {
+  max-width: 400px;
+  align-self: center;
+  padding: 20px;
+  border: 4px solid gold;
+  border-radius: 10px;
+  margin-bottom: 35vh;
+}
+
+.form-heading {
+  color: gold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.form-thank-you {
+  color: gold;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-container {
+  display: flex;
+  margin: 10px 0 20px 0;
+  justify-content: space-around;
+}
+
+.input {
+  color: gold;
+}
+
+.label {
+  color: gold;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: rgb(39, 38, 38);
+  color: gold;
+  width: fit-content;
+  align-self: center;
+  padding: 10px 20px;
+  border: solid 3px gold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change the color of the slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  background-color: black;
+}
+
+/* Change the color of the slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: gold;
+}
+
+/* For Firefox */
+input[type="range"]::-moz-range-thumb {
+  background-color: black;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: gold;
+}
+
+/* For IE */
+input[type="range"]::-ms-thumb {
+  background-color: black;
+}
+
+input[type="range"]::-ms-track {
+  background-color: gold;
+}

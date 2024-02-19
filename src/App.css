@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub-title {
+  margin-top: 17vw;
+  color: gold;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+}
+.box-zen-line {
+  height: auto;
+  width: 100vw;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.zen-line {
+  height: 1800vh;
+  width: 2vw;
+  margin-top: 5vw;
+  align-self: center;
+  background-color: azure;
+  animation: changeColor 1.5s ease infinite alternate;
+}
+
+@keyframes changeColor {
+  from {
+    background-color: azure;
+  }
+  to {
+    background-color: rgb(102, 119, 144);
+  }
+}
+
+.end-text {
+  color: gold;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 10px 20px;
+}
+
+.end-icon {
+  color: gold;
+  font-size: 4rem;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.start-icon {
+  color: gold;
+  font-size: 6rem;
+  align-self: center;
+  margin-top: 2vw;
+}
