@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./assets/componenets/header/Header";
 import { FaArrowAltCircleDown } from "react-icons/fa";
@@ -9,7 +9,13 @@ import Footer from "./assets/componenets/footer/Footer";
 
 function App() {
   //A/B test FormA and FormB, to test which form design leads to better user engagement
-  const [showFormA, setShowFormA] = useState(Math.random() < 0.5);
+  const [showFormA, setShowFormA] = useState(false);
+
+  useEffect(() => {
+    const showFormAorFormB = Math.random() < 0.5;
+
+    setShowFormA(showFormAorFormB);
+  });
 
   return (
     <>
